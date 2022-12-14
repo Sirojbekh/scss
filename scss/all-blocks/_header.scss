@@ -1,0 +1,30 @@
+.header {
+    margin-top: 20px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+
+    &__li {
+        list-style: none;
+    }
+
+    &__list {
+        text-decoration: none;
+        margin-left: 25px;
+        color: black;
+
+        &:hover {
+            text-decoration: underline;
+            color: red;
+        }
+    }
+
+   
+}
